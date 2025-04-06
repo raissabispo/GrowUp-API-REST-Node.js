@@ -1,0 +1,9 @@
+ npx knex migrate:make create-documents
+ npx knex -h
+  npm run knex -- migrate:make create-documents
+//  "knex": "tsx ./node_modules/.bin/knex",
+npm run knex -- migrate:latest
+npm run knex -- migrate:rollback
+npm run knex -- migrate:make add-session-id-to-transactions
+
+localhost:3333/hello
