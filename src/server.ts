@@ -1,11 +1,11 @@
 import fastify from 'fastify'
-// import { knex } from './database'
 import { env } from './env'
-import { transactionsRoutes } from './routes/transactions' // Importação adicionada
+import { transactionsRoutes } from './routes/transactions' // Certifique-se de que o caminho está correto
 
 const app = fastify()
 
-app.register(transactionsRoutes)
+// Registra as rotas de transações
+app.register(transactionsRoutes, { prefix: '/transactions' }) // Adicione o prefixo
 
 app
   .listen({

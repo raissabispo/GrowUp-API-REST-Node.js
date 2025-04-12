@@ -7,3 +7,5 @@ npm run knex -- migrate:rollback
 npm run knex -- migrate:make add-session-id-to-transactions
 
 localhost:3333/hello
+
+definação de tipos 
