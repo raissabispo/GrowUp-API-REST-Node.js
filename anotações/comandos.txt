@@ -9,3 +9,8 @@ npm run knex -- migrate:make add-session-id-to-transactions
 localhost:3333/hello
 
 definação de tipos 
+
+cookies: manter contexto entre requisições, saiba quem é você.
+ - monitoramento 
+ - Conseguir  validar que a mesma pessoa fez requisições e salva 
+"aceita cookies?"
