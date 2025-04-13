@@ -5,6 +5,7 @@ import { knex } from '../database'
 import { checkSessionIdExists } from '../middlewares/check-session-id-exists'
 
 export async function transactionsRoutes(app: FastifyInstance) {
+
   // Rota GET para buscar todas as transações
   app.get(
     '/',
